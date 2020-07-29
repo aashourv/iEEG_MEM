@@ -1,7 +1,7 @@
 %  ========================================================================
 %  This script generates structural connectivity nulls for a subset of 
 %  anatomical regions of interests (ROIs). In this script the empirical 
-%  subset of ROIs correspond to closest ROIs' to the sample patinet's 
+%  subset of ROIs correspond to ROIs closest to the sample patinet's 
 %  intra-cranial EEG (iEEG) electrodes. This algorithm creates structural 
 %  nulls by iteratively resampling ROIs aimed at keeping the pairwise 
 %  distance between the null ROI pairs closest to the empirical distance 
