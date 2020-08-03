@@ -16,9 +16,9 @@
   using Macbook pro OS X 10.13.6 2.8 GHz Intel Core i7. To increase the speed, we included 
   Distance_SC_Null_ShellScript.text script to allow the Distance_SC_Null.m script to be 
   submitted to a computing cluster using a Sun Grid Engine job scheduler (qsub)
-  
-  Arian Ashourvan, University of Pennsylvania, july 2020 
-  
-
+    
   Please contact Arian Ashourvan (ashourv@seas.upenn.edu) with any questions regarding this code.
+
+  Arian Ashourvan, University of Pennsylvania, july 2020
+
   ========================================================================
