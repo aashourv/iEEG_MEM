@@ -1,0 +1,12 @@
+#$ -S /bin/bash
+#$ -t 1-9
+#$ -tc 32
+#$ -o $HOME/logs/$JOB_NAME.$JOB_ID.$TASK_ID
+#$ -j y
+#$ -l h_vmem=4.5G,s_vmem=4G
+#$ -cwd
+
+
+i=$SGE_TASK_ID
+
+matlab -nodisplay -r "runNo = $i; Distance_SC_Null ; exit"
